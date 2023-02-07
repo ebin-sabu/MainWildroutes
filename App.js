@@ -18,8 +18,11 @@ export default function App() {
       <TouchableOpacity style={styles.button} onPress={() => Alert.alert('Coming Soon!', 'This App is Currently in Development')}>
         <Text style={styles.buttonText}>Sign Up</Text>
       </TouchableOpacity>
+      <Text style={styles.textStyle}>Copyright -- Group10 -- 2023</Text>
       <StatusBar style="auto" />
     </SafeAreaView>
+    
+    
   );
 }
 
@@ -56,4 +59,9 @@ const styles = StyleSheet.create({
     letterSpacing: 0.25,
     color: 'white',
   },
+  textStyle: {
+    fontSize: 8,
+    paddingVertical : 12,
+    paddingTop: 50,
+  }
 });

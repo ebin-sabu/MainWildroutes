@@ -8,7 +8,7 @@ import {
   Alert,
   TouchableOpacity, 
 } from 'react-native';
-
+/*App Intro page*/
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
